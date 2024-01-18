@@ -9,11 +9,11 @@ The project uses OpenCV to capture video from the webcam. The video frames are p
 The landmarks data is then fed into an LSTM model for real-time prediction. The LSTM model is defined as follows:
 This LSTM model consists of three LSTM layers followed by three Dense layers. The final Dense layer uses softmax activation and outputs the probabilities for 8 different classes.
 
-Prerequisites
+## Prerequisites
 The project requires the following Python libraries:
 
-OpenCV
-MediaPipe
-NumPy
-Matplotlib
-TensorFlow
+1. OpenCV
+2. MediaPipe
+3. NumPy
+4. Matplotlib
+5. TensorFlow
